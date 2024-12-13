@@ -1,6 +1,6 @@
-package com.khabir.dao;
+package com.khabir.supervisorrotationsystem.dao;
 
-import com.khabir.Incident;
+import com.khabir.supervisorrotationsystem.Incident;
 
 import java.util.Set;
 

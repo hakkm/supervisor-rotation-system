@@ -1,4 +1,4 @@
-package com.khabir;
+package com.khabir.supervisorrotationsystem;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,11 +20,20 @@ public class Member {
   private String phone;
   private List<Incident> incidents;
 
+  public Member(String lname, String fname, String email, String phone) {
+    this.nom = lname;
+    this.prenom = fname;
+    this.email = email;
+    this.phone = phone;
+  }
+
   @Override
   public boolean equals(Object o) {
-    if (this == o) return true;
-    if (!(o instanceof Member member)) return false;
-      return Objects.equals(getId(), member.getId());
+    if (this == o)
+      return true;
+    if (!(o instanceof Member member))
+      return false;
+    return Objects.equals(getId(), member.getId());
   }
 
   @Override

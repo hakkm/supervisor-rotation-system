@@ -20,6 +20,13 @@
             <artifactId>javafx-controls</artifactId>
             <version>21</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
@@ -47,6 +54,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+               <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -70,7 +84,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.khabir.supervisorrotationsystem/com.khabir.supervisorrotationsystem.HelloApplication
+                                com.khabir.supervisorrotationsystem/com.khabir.supervisorrotationsystem.SupervisorApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
