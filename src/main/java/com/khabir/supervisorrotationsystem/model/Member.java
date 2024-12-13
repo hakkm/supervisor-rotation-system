@@ -1,4 +1,4 @@
-package com.khabir.supervisorrotationsystem;
+package com.khabir.supervisorrotationsystem.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

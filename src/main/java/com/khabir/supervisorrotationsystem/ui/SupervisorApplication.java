@@ -1,4 +1,4 @@
-package com.khabir.supervisorrotationsystem;
+package com.khabir.supervisorrotationsystem.ui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

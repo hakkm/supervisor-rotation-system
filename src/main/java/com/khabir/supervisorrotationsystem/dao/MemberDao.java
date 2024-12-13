@@ -1,7 +1,7 @@
 package com.khabir.supervisorrotationsystem.dao;
 
-import com.khabir.supervisorrotationsystem.Incident;
-import com.khabir.supervisorrotationsystem.Member;
+import com.khabir.supervisorrotationsystem.model.Incident;
+import com.khabir.supervisorrotationsystem.model.Member;
 
 import java.util.List;
 
